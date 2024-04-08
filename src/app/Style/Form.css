@@ -1,0 +1,167 @@
+.formDiv{
+    background-image: url("/FormBgg.png");
+    background-size: cover;
+    background-position: center;
+    width: 80vw;
+height: 495px;
+flex-shrink: 0;
+margin-top: 100px;
+margin-left: auto;
+border-radius: 20px;;
+margin-right: auto;
+}
+
+
+
+
+.formDivAbout{
+    background-image: url("/AboutFormBg.png");
+    background-size: cover;
+    background-position: center;
+    width: 80vw;
+height: 495px;
+flex-shrink: 0;
+margin-top: 100px;
+margin-left: auto;
+border-radius: 20px;;
+margin-right: auto;
+}
+
+
+.FormInput{
+    padding: 5px;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding-left: 15px;
+    color: white;
+
+}
+
+.fromInSideDiv > input::placeholder {
+    color: red;
+}
+
+.formHeading{
+    color: #FFF;
+text-align: center;
+font-family: Lexend Deca;
+font-size: 42px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.26px;
+text-transform: capitalize;
+margin-top: 50px;
+margin-left: auto;
+}
+
+
+.btnsmt{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.submitFormBtn{
+    width: 332px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF;
+color: #26567B;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.6px;
+margin-top: 60px;
+}
+
+
+.fromInSideDiv > input {
+    width: 432px;
+    /* border-bottom: 1px solid #000; */
+    margin-top: 15px;
+    margin-left: 72px;
+    
+
+  }
+
+
+  .fromInSideDiv > input::placeholder{
+    color: #FFF;
+  }
+
+  .firstnamebox::placeholder,
+  .FormInput::placeholder {
+      color: white;
+  }
+
+
+  #name::placeholder{
+    color: #FFF;
+  }
+
+  #last_Name::placeholder{
+    color: #FFF;
+  }
+
+  #email::placeholder{
+    color: #FFF;
+  }
+
+  #number::placeholder{
+    color: #FFF;
+  }
+
+
+
+/* 
+  input[type=number]::-webkit-inner-spin-button {
+display: none;} */
+
+
+  .fromInSideDiv >input::placeholder {
+    color: #424543;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+
+
+
+
+.formInsideDiv >input{
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) 
+{
+
+.formDiv{
+    display: none;
+}
+
+.fromInSideDiv > input{
+    width: 350px;
+height: 44px;
+flex-shrink: 0;
+margin-left: 0px;
+}
+
+.form1stDiv{
+    display: none;
+}
+
+.formDivAbout{
+    display: none;
+}
+
+}

@@ -1,0 +1,17 @@
+.HideMbDiv{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) 
+{
+
+.HideMbDiv{
+    display: block;
+}
+
+.NavDivMbBg{
+    background: #26567B;
+}
+
+
+}
