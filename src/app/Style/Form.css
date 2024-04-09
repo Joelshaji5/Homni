@@ -39,7 +39,7 @@ margin-right: auto;
 }
 
 .fromInSideDiv > input::placeholder {
-    color: red;
+    color: white;
 }
 
 .formHeading{

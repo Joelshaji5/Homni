@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:wght@400;700&display=swap');
+
 .heroAboutDiv{
     background-image: url("/aboutHeroNew.png");
     background-repeat: no-repeat;
@@ -90,5 +94,16 @@ text-transform: capitalize;
     .designation{
         margin-bottom: 10px;
     }
+
+    .AboutTxt{
+        background-image: url("/AboutBgDiv.png");
+            padding-bottom:100px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 115px;
+    }
+    .AboutSubTxt{
+
+    margin-top: 0;}
 
 }

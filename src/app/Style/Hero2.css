@@ -18,6 +18,11 @@ text-align: end;
 margin-bottom: 10px;
 }
 
+
+.nav-fix-not-scroll{
+    color: #FFF;
+}
+
 .Hero2Para{
     width: 694px;
     color: #26567B;

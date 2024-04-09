@@ -73,7 +73,7 @@ function FormPCAbout() {
                 className='FormInput placeholder-red'
                 placeholder="Last Name*"
                 value={formDataNew.last_name} onChange={handleChange} required
-                style={{color: 'red'}} // Change 'red' to the desired color
+                style={{color: 'white'}} // Change 'red' to the desired color
 
               />
 
