@@ -90,10 +90,10 @@ const StickyNavbar = () => {
           ))}
         </ul>
       )}
-      <a href="#Form-section">
+      <Link href="#Form-section" >
 
         <button className="text-black mr-10 navBtn">Contact</button>
-        </a>
+        </Link>
     </nav>
   );
 };

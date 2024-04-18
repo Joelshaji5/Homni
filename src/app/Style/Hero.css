@@ -139,6 +139,7 @@ margin-top: 24px;
 .Hero1{
     
     background-image: url(/maskHomeMb.png);
+    background-size: cover;
 }
 
 .heroBtn{
