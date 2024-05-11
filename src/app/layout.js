@@ -30,7 +30,11 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
 
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRHGG2Q7"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+height="0" width="0"     style={{ display: 'none', visibility: 'hidden' }}
+>
+  
+  
+  </iframe></noscript>
         
         {children}</body>
     </html>
