@@ -9,9 +9,11 @@ import BookingForm from '../Components/Components/Form/BookingForm'
 import Footer from '../Components/Components/Footer/Footer'
 import Form from '../Components/Components/Form/FormPC'
 import VedioBg from '../Components/HeroComponent/VedioBg'
+import MetaPixel from '../util/meta/metaPixel'
 function HomePage() {
   return (
     <>
+    <MetaPixel />
     <Hero />
     <BookingForm />
     <Hero2 />
