@@ -13,7 +13,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-   <Head>
+ <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SBL03NQ2J4"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-SBL03NQ2J4');
+            `,
+          }}
+        />
+
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -26,6 +39,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </Head>
+
 
       <body className={inter.className}>
 
