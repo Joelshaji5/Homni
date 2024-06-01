@@ -11,9 +11,9 @@ function Page() {
  <div className='tncMainDiv'>
         <h1>Terms and Conditions</h1>
         <p>
-          These terms and conditions outline the rules and regulations for the use of HOMNIDENT LLP website
+          These terms and conditions outline the rules and regulations for the use of HOMNIDENT LLP website 
           <a href="https://www.homnident.com/">https://www.homnident.com/</a>.
-        </p>
+        </p>  
         <p>
           By accessing this website we assume you accept these terms and conditions. Do not continue to use Homnident LLP WEBSITE if you do not agree to take all of the terms and conditions stated on this page.
         </p>
