@@ -5,7 +5,7 @@ function Page() {
  <div>
         <h1>Terms and Conditions</h1>
         <p>
-          These terms and conditions outline the rules and regulations for the use of HOMNIDENT LLP website{' '}
+          These terms and conditions outline the rules and regulations for the use of HOMNIDENT LLP website
           <a href="https://www.homnident.com/">https://www.homnident.com/</a>.
         </p>
         <p>
@@ -157,7 +157,7 @@ function Page() {
           <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party&rsquo;s site.</li>
         </ul>
         <p>
-          No use of Homnident LLP's logo or other artwork will be allowed for linking absent a trademark license agreement.
+          No use of Homnident LLPs logo or other artwork will be allowed for linking absent a trademark license agreement.
         </p>
         <h2>iFrames</h2>
         <p>
