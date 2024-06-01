@@ -1,8 +1,14 @@
 import React from 'react'
-
+import "../Style/tncMainDiv.css"
+import StickyNavbar from '../Components/Navbar/Navstyle';
+import NavbarMb from '../Components/Navbar/NavbarMb';
 function Page() {
     return (<>
- <div>
+    <div className='tmcMain'>
+<div className='DivBg'>
+<StickyNavbar />
+    <NavbarMb />
+ <div className='tncMainDiv'>
         <h1>Terms and Conditions</h1>
         <p>
           These terms and conditions outline the rules and regulations for the use of HOMNIDENT LLP website
@@ -200,7 +206,8 @@ function Page() {
         </p>
       </div>
     
-
+</div>
+</div>
         </>
       );
     }
