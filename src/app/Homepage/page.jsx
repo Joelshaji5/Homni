@@ -24,7 +24,6 @@ function HomePage() {
     <Patienttestimonials />
     <BookingForm />
     <Form />
-    <Footer />
 
     
     </>

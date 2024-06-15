@@ -2,6 +2,7 @@ import React from 'react'
 import "../Style/tncMainDiv.css"
 import StickyNavbar from '../Components/Navbar/Navstyle';
 import NavbarMb from '../Components/Navbar/NavbarMb';
+import Footer from '../Components/Components/Footer/Footer';
 function Page() {
     return (<>
     <div className='tmcMain'>
@@ -208,6 +209,7 @@ function Page() {
     
 </div>
 </div>
+<Footer />
         </>
       );
     }

@@ -8,7 +8,7 @@ function Hero() {
         <p className='heroSubHeadingTxt '>Get Dental care at the comfort of your home.</p>
         <div className='flex HeroBtnDiv'>
         <button className='heroBtn1'>Join Us</button>
-        <a href="#first-section">
+        <a href="#Form-section">
         <button className='heroBtn'>Book Now</button>
 
         </a>
